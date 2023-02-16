@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent {
+  title='HelloWorld';
 
+  ngOnInit(): void{
+    this.title = "Hello from Bridgelabz.";
+  }
 }
